@@ -19,27 +19,37 @@ Design and implement an automated CI/CD pipeline that builds, tests, containeriz
 
 ---
 
-## Project Architecture
+## Architecture Diagram
 
-Developer Push
-↓
-GitHub Repository
-↓
-Jenkins Pipeline
-↓
-Build Docker Image
-↓
-Run Tests
-↓
-Push Image → Docker Hub
-↓
-Deploy Container → AWS EC2
-↓
-Prometheus Monitoring
-↓
-Grafana Dashboard
+```mermaid
+flowchart TD
 
----
+A[Developer Push] --> B[GitHub Repository]
+
+B --> C[Jenkins Pipeline]
+
+C --> D[Checkout Source]
+
+D --> E[Build Docker Image]
+
+E --> F[Run Tests]
+
+F --> G[Push Image to Docker Hub]
+
+G --> H[Deploy Container to AWS EC2]
+
+H --> I[Application Running]
+
+H --> J[Prometheus Monitoring]
+
+J --> K[Grafana Dashboard]
+
+K --> L[CPU Usage]
+
+K --> M[Memory Usage]
+
+K --> N[System Health]
+```
 
 ## Repository Structure
 
@@ -240,3 +250,6 @@ Resolved using Git cleanup, Docker group permissions and Prometheus target adjus
 
 Akshay Barapatre  
 DevOps Engineer | AWS | Docker | Jenkins | Linux | Monitoring
+
+
+
