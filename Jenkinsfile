@@ -8,7 +8,7 @@ pipeline {
 
         IMAGE_NAME = "akshay8833/immverse-app"
 
-        IMAGE_TAG = "latest"
+        IMAGE_TAG = "v1_latest"
 
         CONTAINER_NAME = "immverse-container"
 
