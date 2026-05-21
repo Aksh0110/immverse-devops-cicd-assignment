@@ -55,13 +55,13 @@ Dockerfile created.
 Build:
 
 ```bash
-docker build -t immverse-app:v1 .
+docker build -t immverse-app:v1_latest .
 ```
 
 Run:
 
 ```bash
-docker run -d -p 3000:3000 immverse-app:v1
+docker run -d -p 3000:3000 immverse-app:v1_latest
 ```
 
 Insert screenshots:
