@@ -66,7 +66,7 @@ docker run -d -p 3000:3000 immverse-app:v1
 
 Insert screenshots:
 
-![alt text](<screenshots/Screenshot 2026-05-21 145351.png>) ![alt text](<screenshots/Screenshot 2026-05-21 145305.png>)
+![alt text](<screenshots/Screenshot 2026-05-21 145351.png>) ![alt text](<screenshots/Screenshot 2026-05-21 145305.png>)   
 
 ---
 
@@ -106,8 +106,7 @@ Image pushed:
 
 dockerhub-user/immverse-app:v1_latest
 
-![alt text](<screenshots/Screenshot 2026-05-21 145653.png>)
----
+![alt text](<screenshots/Screenshot2026-05-21145653.png>)
 
 # 8. AWS EC2 Deployment
 

@@ -70,6 +70,7 @@ immverse-devops-cicd-assignment/
 ├── screenshots/
 │
 ├── Jenkinsfile
+├── DevOps_CICD_Assignment_Report.md
 ├── README.md
 ├── .env.example
 └── .gitignore
